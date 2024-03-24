@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #333333;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #4c4cff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.cabecalho__marca__logo {
+    width: 100px;
+}
+
+.cabecalho__marca__nome {
+    font-family: 'Russo One', sans-serif;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.cabecalho__menu {
+    margin-top: 20px;
+}
+
+.cabecalho__menu__link {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid #F6F6F6;
+    padding: 21px 20px;
+    border-radius: 25px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.cabecalho__menu__link:hover {
+    color: black;
+}
+
+/* SOBRE MIM */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.box-area {
+    background-color: #FFFFFF;
+    width: 800px; 
+    margin-top: 5%;
+    border: 2px solid white; 
+    border-radius: 30px; 
+    padding: 20px; 
+    text-align: center; 
+    box-shadow: 20px 20px 30px rgba(43, 71, 230, 0.1);
+}
+
+.imagem {
+    width: 250px; 
+    height: 300px; 
+    overflow: hidden;
+    border-radius: 50%; 
+    margin: 0 auto 20px; 
+}
+
+.imagem img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 50%; 
+}
+
+.box-area h3 {
+    color: black; 
+    font-size: 1.5rem; 
+    margin-bottom: 10px; 
+}
+
+.box-area p {
+    color: black; 
+    font-size: 1.1rem; 
+}
+

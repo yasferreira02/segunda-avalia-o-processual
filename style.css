@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #333333;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    background-color: #4c4cff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.cabecalho__marca__logo {
+    width: 100px;
+}
+
+.cabecalho__marca__nome {
+    font-family: 'Russo One', sans-serif;
+    font-size: 2rem;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.cabecalho__menu {
+    margin-top: 20px;
+}
+
+.cabecalho__menu__link {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 2px solid #F6F6F6;
+    padding: 21px 20px;
+    border-radius: 25px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.cabecalho__menu__link:hover {
+    color: black;
+}
+
+/* Apresentação */
+.apresentacao {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.apresentacao__conteudo {
+    flex: 1;
+    padding-right: 40px;
+    text-align: center;
+}
+
+.apresentacao__conteudo__titulo {
+    font-family: 'Russo One', sans-serif;
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.titulo-destaque {
+    color: #4c4cff;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.apresentacao__links {
+    margin-top: 20px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.apresentacao__links__navegacao {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: 2px solid #4c4cff;
+    padding: 21px 0px;
+    border-radius: 13px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.apresentacao__links__navegacao__imagem {
+    width: 45px;
+    margin-bottom: -14px;
+}
+.apresentacao__links__navegacao:hover {
+    color: #4c4cff;
+    border-radius: 15px;
+    transition: color 0.3s ease;
+}
+
+.apresentacao__imagem {
+    border-radius: 10%;
+    max-width: 25%;
+    height: auto;
+}
+
+.apresentacao__imagem__conteudo {
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
